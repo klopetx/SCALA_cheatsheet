@@ -1,0 +1,26 @@
+@startmindmap
+skinparam wrapWidth 350
+skinparam maxMessageSize 350
+
+* **Tipos de datos en Scala**
+** **Primitivos**
+*** **Byte**: Entero 8 bits
+*** **Short**: Entero 16 bits
+*** **Int**: Entero 32 bits
+*** **Long**: Entero 64 bits
+*** **Float**: Decimal 32 bits
+*** **Double**: Decimal 64 bits
+*** **Char**: Carácter Unicode
+*** **Boolean**: Verdadero/Falso
+** **Referencias**
+*** **String**: Cadena de texto
+*** **Any/AnyVal/AnyRef**: Jerarquía de tipos
+*** **Null**: Valor nulo
+*** **Nothing**: Ausencia total
+*** **Unit**: Retorno vacío
+** **Colecciones**
+*** **List**: Inmutable, ordenada. \nMétodos: map, filter, foreach, reduce, fold, sum, sorted, contains; \nNota: val/var solo afecta referencia
+*** **Array**: Mutable, acceso rápido. \nMétodos: map, filter, foreach, updated, length; \nNota: con val no reasignas, pero sí modificas contenido
+*** **Map**: Pares clave-valor. \nMétodos: get, keys, values, updated, filterKeys, mapValues; \nNota: Mutable con scala.collection.mutable.Map \n Ej: `val mapa: Map[String,Int] = Map("a"->1)`
+*** **Set**: Sin duplicados. \nMétodos: add, remove, contains, union, intersect; \nNota: mutable si usas scala.collection.mutable.Set. \n Ej: `val conjunto: Set[Int] = Set(1,2,3)`
+@endmindmap
